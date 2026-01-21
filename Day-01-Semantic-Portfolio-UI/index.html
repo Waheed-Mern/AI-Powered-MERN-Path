@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discover Waheed's Mern Stack portfolio, featuring cutting-edge web development projects that highlight expertise in JavaScript, MongoDB, Express, React, and Node.js." />
+    <title>My Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" />
+    </noscript>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+  <body>
+    <main>
+      <h1>About</h1>
+      <div>
+      <p>
+        Waheed is a MERN stack developer from Pakistan, delivering robust
+        full‑stack solutions using MongoDB, Express.js, React, and Node.js. He
+        builds scalable REST APIs, clean component-based UIs, and secure
+        back-end services, leveraging JavaScript and TypeScript. With Agile
+        practices and CI/CD pipelines, Waheed accelerates releases, ensures code
+        quality, and optimizes performance. He integrates third‑party services,
+        writes reusable modules, and deploys to AWS and Docker with best
+        practices for testing and documentation. Focused on user experience and
+        maintainable architecture, he transforms complex requirements into
+        reliable web applications for startups and enterprises.
+      </p>
+      </div>
+      <div class="exercise">
+        <a target="_blank" href="exercises/exercise1">My Exercise</a>
+      </div>
+      <div>
+      <img
+        class="image"
+        src="image.webp"
+        alt="My image"
+        width="396px"
+        height="509px"
+      />
+      </div>
+      <div>
+      <h2>Education</h2>
+      <ul>
+        <li>Adp IT (Information Technology)</li>
+        <li>MERN Stack Web Development Specialist - In Progress</li>
+      </ul>
+      </div>
+      <div>
+      <h2>MERN Stack Services</h2>
+      <ol>
+        <li>Building Full-Stack Web Applications (MERN)</li>
+        <li>Developing Responsive Frontend with React.js</li>
+        <li>Backend API Development using Node.js & Express</li>
+        <li>Database Management with MongoDB</li>
+      </ol>
+      </div>
+      <div class="table">
+      <table>
+        <caption>
+          <h2>Skills and Learning Status</h2>
+        </caption>
+        <thead>
+          <tr>
+            <th>Skill Name</th>
+            <th>My Level</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML5</td>
+            <td>Advance</td>
+            <td>✅Completed</td>
+          </tr>
+          <tr>
+            <td>CSS3</td>
+            <td>Intermediate</td>
+            <td>⏳Learning</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+            <td>🚀Upcoming</td>
+          </tr>
+          <tr>
+            <td>MERN Stack</td>
+            <td>Aspiring</td>
+            <td>📈In Progress</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <h2>Contact Me</h2>
+      <div>
+        <a class="whatsapp" target="_blank" href="https://wa.me/923154200868"
+          >Contact on Whatsapp</a
+        >
+      </div>
+      <div>
+        <a
+          class="linkedin"
+          target="_blank"
+          href="https://www.linkedin.com/in/muhammad-waheed-2405a43a4"
+          >Contact on Linkedin</a
+        >
+      </div>
+      <form method="post" enctype="multipart/form-data">
+        <div>
+          <label class="label" for="username">Enter Username:</label>
+          <input
+            class="username"
+            type="text"
+            name="username"
+            id="username"
+            autocomplete="username"
+            placeholder="Enter Name"
+            required
+            maxlength="30"
+          />
+        </div>
+        <div>
+          <fieldset>
+            <legend>Your Role:</legend>
+            <input type="radio" name="role" id="client" value="client" />
+            <label for="client">Client</label>
+            <input type="radio" name="role" id="recruiter" value="recruiter" />
+            <label for="recruiter">Recruiter</label>
+            <input type="radio" name="role" id="student" value="student" />
+            <label for="student">Student</label>
+          </fieldset>
+        </div>
+        <div>
+          <label class="label" for="phone">Enter Your Phone Number:</label>
+          <input
+            class="phone"
+            type="tel"
+            name="phone"
+            id="phone"
+            required
+            placeholder="Enter Your Phone"
+            pattern="[+]?[0-9]{10,15}"
+            autocomplete="tel"
+          />
+        </div>
+        <div>
+          <label class="label" for="email">Email:</label>
+          <input
+            class="email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email"
+            required
+            autocomplete="email"
+          />
+        </div>
+        <div>
+          <label class="label" for="comment">Message:</label>
+          <textarea
+            class="comment"
+            name="comment"
+            id="comment"
+            rows="5"
+            cols="45"
+            placeholder="Write something..."
+            required
+          ></textarea>
+        </div>
+        <div class="file">
+          <label for="file">Choose File:</label>
+          <input
+            type="file"
+            name="file"
+            id="file"
+            required
+            multiple
+          />
+        </div>
+        <div class="services">
+        <label for="services">What are you looking for?</label>
+        <select name="services" id="services">
+          <option value="none">-- Please Select --</option>
+          <option value="frontend">Frontend Development</option>
+          <option value="mern">Full Stack MERN Project</option>
+          <option value="uiux">UI/UX Design Advice</option>
+          <option value="collab">Collaboration / Hiring</option>
+        </select>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="terms" id="terms" value="yes" required />
+          <label for="terms">I agree to the terms and conditions</label>
+        </div>
+        <div id="button">
+          <button>Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

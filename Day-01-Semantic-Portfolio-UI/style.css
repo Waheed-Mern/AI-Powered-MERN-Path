@@ -1,0 +1,96 @@
+body{
+    background-color: lightgrey;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+@media(max-width: 768px){
+    p{
+        text-align: left;
+    }
+}
+caption, table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+h1, h2{
+    color: darkblue;
+    text-align: center;
+}
+button{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: darkblue;
+    color: white;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: darkgoldenrod;
+}
+fieldset{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+#button{
+    text-indent: 150px;
+}
+.label{
+    display: block;
+}
+.username, .phone, .email, .comment{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.checkbox{
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+}
+.exercise{
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid blue;
+}
+.linkedin:hover{
+    background-color: blue;
+    color: white;
+}
+.services{
+    display: block;
+    padding: 15px;
+}
+.whatsapp:hover{
+    background-color: green;
+    color: white;
+}
+.file{
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.whatsapp, .linkedin{
+    display: block;
+    margin-bottom: 15px;
+}
+.table{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

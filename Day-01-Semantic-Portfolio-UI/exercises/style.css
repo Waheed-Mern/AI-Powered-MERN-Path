@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+div>p{
+    background-color: gray;
+    color: white;
+}
+p:first-child{
+    background-color: green;
+    color: white;
+}
+p:nth-child(3){
+    background-color: orange;
+    color: black;
+=======
+div>p{
+    background-color: gray;
+    color: white;
+}
+p:first-child{
+    background-color: green;
+    color: white;
+}
+p:nth-child(3){
+    background-color: orange;
+    color: black;
+>>>>>>> 5868de3580165a73474b77ce6f2741f297eecc51
+}
