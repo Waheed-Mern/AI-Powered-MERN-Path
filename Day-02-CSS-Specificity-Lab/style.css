@@ -1,0 +1,23 @@
+h1 {
+        color: antiquewhite;
+      }
+      .yellow {
+        color: yellow;
+      }
+      .cred {
+        color: red;
+      }
+      .cpurple {
+        color: purple;
+      }
+      [data-x="a"] {
+        color: goldenrod;
+      }
+      .green {
+        color: green !important;
+      }
+      h2,
+      .hi,
+      .cred {
+        color: brown;
+      }
