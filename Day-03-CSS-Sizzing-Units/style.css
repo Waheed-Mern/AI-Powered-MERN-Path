@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: aquamarine;
+    width: 300px;
+    margin: auto;
+    height: 10vh;
+}
+
+.container {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: bisque;
+    width: 80vw;
+    min-height: 10vh;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+.container>p {
+    font-size: 2em;
+}
+
+.mycount {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    width: 100vmin;
+    font-size: 2em;
+}
+
+.m {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    width: 80vmax;
+    font-size: 2em;
+    margin: 20px auto;
+}
+.w{
+     box-sizing: border-box;
+    border: 2px solid black;
+    background-color: bisque;
+    width: 80vw;
+    min-height: 10vh;
+    margin: 20px auto;
+    font-size: 16px;
+}
+.w>div{
+    border: 2px solid blue;
+    width: 50%;
+}
+.w>div>div{
+    border: 2px solid red;
+    width: 30%;
+}
