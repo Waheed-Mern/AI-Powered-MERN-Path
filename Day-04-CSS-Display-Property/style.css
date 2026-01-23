@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: block;
+    border: 2px solid black;
+    background-color: bisque;
+}
+span{
+    display: inline;
+    border: 2px solid black;
+}
+.b{
+    display: inline-block;
+    border: 2px solid black;
+    width: 344px;
+    margin: 34px;
+    padding: 45px;
+}
+.c{
+    display: block;
+    border: 2px solid black;
+    width: 344px;
+    margin: 34px;
+    padding: 45px;
+}
+.c1{
+    display: none;
+}
+.d{
+    display: block;
+    border: 2px solid black;
+    width: 344px;
+    margin: 34px;
+    padding: 45px;
+}
+.d1{
+    visibility: hidden;
+}
