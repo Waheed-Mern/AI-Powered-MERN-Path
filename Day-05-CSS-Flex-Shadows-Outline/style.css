@@ -1,0 +1,30 @@
+nav{
+    margin: 20px auto;
+    border: 2px solid black;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    padding: 20px;
+    list-style: lower-roman;
+    color: blue;
+    list-style-position: inside;
+}
+.box{
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 0px 6px 10px 0px #131bdd;
+
+}
+.para{
+    margin: 20px;
+    text-shadow: 2px 2px 5px #f019ee;
+}
+.out{
+    border: 2px solid red;
+    padding: 20px;
+    box-shadow: 0px 6px 10px 0px #131bdd;
+    outline: 2px solid black;
+}
