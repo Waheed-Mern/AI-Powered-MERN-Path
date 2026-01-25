@@ -1,0 +1,48 @@
+.box {
+    display: inline-block;
+    margin: 20px auto;
+    width: 30vw;
+    height: 30vh;
+    border: 2px solid blue;
+    overflow: auto;
+}
+
+.box1 {
+    display: inline-block;
+    margin: 20px auto;
+    width: 30vw;
+    height: 30vh;
+    border: 2px solid blue;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.box2 {
+    display: inline-block;
+    margin: 20px auto;
+    width: 30vw;
+    height: 30vh;
+    border: 2px solid blue;
+    overflow: scroll visible;
+}
+
+.box3 {
+    display: inline-block;
+    margin: 20px auto;
+    width: 30vw;
+    height: 30vh;
+    border: 2px solid blue;
+    overflow: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.box4 {
+    display: inline-block;
+    margin: 20px auto;
+    width: 30vw;
+    height: 30vh;
+    border: 2px solid blue;
+    overflow: auto;
+    white-space: nowrap;
+}
