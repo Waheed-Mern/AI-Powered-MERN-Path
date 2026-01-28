@@ -1,0 +1,32 @@
+:root {
+    --color: rgb(191, 152, 243);
+    --seccolor: rgb(245, 134, 217);
+    --defpad: 25px;
+    --defop: 0.2;
+    --defm: 10px
+}
+
+.nav {
+    background-color: var(--color);
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: var(--defpad);
+    list-style: none;
+    border: 2px solid var(--seccolor);
+}
+
+.para {
+    background-color: var(--seccolor);
+    padding: var(--defpad);
+    margin: var(--defm);
+}
+
+p:nth-child(2) {
+    opacity: var(--defop);
+}
