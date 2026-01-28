@@ -12,7 +12,6 @@ body{
     padding: 0px 0px 5px 0px;
     border-radius: 7px;
     width: min(90% 300px);
-    max-width: 300px;
     margin: 4px;
     box-shadow: 0px 10px 30px rgb(194, 9, 163);
 }
