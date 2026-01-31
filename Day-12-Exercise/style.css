@@ -1,0 +1,161 @@
+:root {
+    --bd-text: 'Baloo Bhaijaan 2';
+    --bd-color: lightgray;
+    --container-color: white;
+    --box1-bg-color: rgb(212, 55, 212);
+    --box2-bg-color: #8A2BE2;
+    --box-text: 'Playwrite IN Guides';
+    --nav-bg-clr: pink;
+    --nav-height: auto;
+}
+
+@media(max-width:768px) {
+    .container {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .box1, .box2 {
+        width: 90%;
+        height: auto;
+        padding: 30px 15px;
+        font-size: 1.1rem;
+    }
+
+    footer p {
+        font-size: 1.2em;
+    }
+
+    .note {
+        font-size: 1.2em;
+    }
+}
+
+@media(max-width:480px) {
+    .container {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .box1 .box2 {
+        width: 90%;
+        height: auto;
+        padding: 30px 15px;
+        font-size: 1.1rem;
+    }
+
+    footer p {
+        font-size: 1.2em;
+    }
+
+    .note {
+        font-size: 1.2em;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--bd-color);
+    font-family: var(--bd-text);
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background-color: var(--nav-bg-clr);
+    height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    background-color: var(--nav-bg-clr);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer p {
+    display: block;
+    background-color: darkgray;
+    padding: 50px;
+    text-align: center;
+    border-radius: 13px;
+    font-size: 2em;
+}
+
+.container {
+    background-color: var(--bd-color);
+    color: var(--container-color);
+    padding: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    overflow-wrap: break-word;
+}
+
+.box1 {
+    font-family: var(--box-text);
+    font-size: 1.3rem;
+    background-color: var(--box1-bg-color);
+    border: 2px solid rgb(212, 55, 212);
+    min-height: 60vh;
+    height: auto;
+    width: 90%;
+    box-sizing: border-box;
+    text-align: center;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+    box-shadow: 5px 20px 30px 0px#696969;
+}
+
+.box2 {
+    font-family: var(--box-text);
+    font-size: 1.3rem;
+    background-color: var(--box2-bg-color);
+    border: 2px solid #8A2BE2;
+    min-height: 60vh;
+    height: auto;
+    width: 90%;
+    box-sizing: border-box;
+    text-align: center;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+    box-shadow: 5px 20px 30px 0px#696969;
+}
+
+.circle {
+    background-color: blue;
+    color: white;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    right: 30px;
+    bottom: 35px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.note {
+    display: block;
+    border: 2px solid black;
+    padding: 34px;
+    border-radius: 13px;
+    font-size: 2em;
+    text-align: center;
+}
