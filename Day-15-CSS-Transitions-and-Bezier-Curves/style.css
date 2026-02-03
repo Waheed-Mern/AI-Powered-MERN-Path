@@ -1,0 +1,455 @@
+.container {
+border: 2px solid black;
+margin: 10px auto;
+padding: 10px 20px;
+width: 90%;
+height: auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+justify-items: center;
+gap: 30px;
+perspective: 1000px;
+}
+
+.box {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+align-items: center;
+justify-content: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box:hover {
+transform: none;
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box1 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center;    
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box1:hover {
+transform: matrix(2, 1, 1, 2, 1, 1);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box2 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box2:hover {
+transform: matrix3d(2, 1, 1, 0, 0, 2, 0, 0, 0, 0, 2, 0, 5, 0, 1, 2);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box4 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box4:hover {
+transform: rotate(70deg);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box5 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box5:hover {
+transform: rotate3d(3, 5, 17, 25deg);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box6 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box6:hover {
+transform: rotateX(120deg);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box7 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box7:hover {
+transform: rotateY(120deg);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box8 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box8:hover {
+transform: rotateZ(120deg);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box9 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box9:hover {
+transform: scale(1.5);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box10 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box10:hover {
+transform: rotateX(120deg) scale3d(2.5, 2.5, 1.5);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box11 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box11:hover {
+transform: rotateZ(45deg) scaleX(1.5);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box12 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+
+}
+
+.box12:hover {
+transform: rotateY(90deg) scaleY(1.5);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box13 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box13:hover {
+transform: rotate(270deg) scaleZ(1.5);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box14 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box14:hover {
+transform: skewX(70deg);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box15 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+
+}
+
+.box15:hover {
+transform: skewY(120deg);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box16 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box16:hover {
+transform: rotateZ(120deg) translate(20px, 50px);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box17 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box17:hover {
+transform: rotateY(45deg) translate3d(0px, 20px, 10px);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box18 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box18:hover {
+transform: rotateX(45deg) translateX(20px);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box19 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box19:hover {
+transform: rotateY(45deg) translateY(30px);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
+
+.box20 {
+border: 2px solid blue;
+width: 100px;
+height: 100px;
+cursor: pointer;
+display: flex;
+text-align: center; 
+justify-content: center;
+align-items: center;
+transition-duration: 2s;
+transition-property: all;
+transition-delay: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.17, 0.51, 0.59);
+}
+
+.box20:hover {
+transform: rotateY(30deg) translateZ(100px);
+border: 2px solid red;
+background-color: blue;
+color: white;
+}
