@@ -11,5 +11,5 @@ Today's engineering focus was on creating autonomous UI motions using **Keyframe
 - **Visual Processing:** Implemented a suite of **CSS Filters** including `blur`, `brightness`, `contrast`, and `hue-rotate` for real-time image manipulation without Photoshop.
 - **Background Architecture:** Optimized background rendering using `background-clip` and `background-size: cover`.
 
-### 🛠️ Performance Insight:
+### 🛠️ Performance Insight: 
 Using CSS filters and animations is significantly more performant than using heavy GIFs or JavaScript-based movement. These are handled directly by the browser's compositor thread, ensuring smooth UI performance even on lower-end devices.
