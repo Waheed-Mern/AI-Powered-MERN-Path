@@ -1,0 +1,150 @@
+.main-container{
+    display: flex;
+    gap: 10px;
+}
+.container {
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.box {
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: waheed;
+    animation-duration: 3s;
+    animation-delay: 0.3s;
+    animation-timing-function: cubic-bezier(0, 0.08, 0.41, 1.07);
+    animation-direction: normal;
+    animation-iteration-count: 2;
+    animation-fill-mode: backwards;
+}
+.box1{
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: waheed2;
+    animation-duration: 3s;
+    animation-delay: 0.3s;
+    animation-timing-function: cubic-bezier(0.01, 0.24, 0.07, 0.96);
+    animation-direction: normal;
+    animation-iteration-count: 2;
+}
+.box3{
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation:waheed3 3s cubic-bezier(0.01, 0.24, 0.07, 0.96) 0.5s 2 none;
+}
+
+@keyframes waheed {
+    from {
+        background-color: black;
+    }
+
+    to {
+        background-color: yellow;
+        transform: translateX(300px);
+    }
+
+}
+@keyframes waheed2 {
+    from {
+        background-color: brown;
+    }
+
+    to {
+        background-color: yellow;
+        transform: translatey(300px);
+    }
+
+}
+@keyframes waheed3 {
+    0%{
+    transform: rotate(10deg);
+    }
+    25%{
+    transform: rotate(40deg);
+    }
+    50%{
+    transform: rotate(90deg);
+    }
+    75%{
+    transform: rotate(120deg);
+    }
+    100%{
+    transform: rotate(270deg);
+    }
+    
+}
+.main-object{
+    display: flex;
+    gap: 30px;
+    margin: 10px 0px;
+    border: 2px solid blue;
+}
+.object{
+    border: 2px solid red;
+    width: 250px;
+    height: 300px;
+}
+.image{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    /* object-position: center; */
+    object-position: right top;
+}
+.image2{
+    width: 250px;
+    height: 300px;
+    object-fit: contain;
+    /* object-position: bottom right; */
+}
+.back{
+    background-image: url(https://up.yimg.com/ib/th/id/OIP.gabnTIrb9_VUBujEuAZp1QHaEK?pid=Api&rs=1&c=1&qlt=95&w=190&h=107);
+    height: 600px;
+    width: 700px;
+    border: 2px solid black;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-position: top left;
+}
+.filter{
+    margin: 10px 0px;
+    border: 2px solid black;
+}
+.img1{
+    filter: blur(10px);
+    
+}
+.img2{
+filter: brightness(2.5);
+    
+}
+.img3{
+filter: contrast(3.5);
+    
+}
+.img4{
+filter: hue-rotate(209deg);
+   
+}
+.img5{
+ filter: opacity(0.5);
+   
+}
+.img6{
+ filter: saturate(18.5);
+    
+}
+.img7{
+filter: grayscale(50);
+}
