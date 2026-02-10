@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-19-JS-DOM-Events-and-Conditional-Security</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="card">
+      <form method="post">
+        <label class="label" for="username">Username:</label>
+        <input
+          class="username"
+          type="text"
+          name="username"
+          id="username"
+          required
+          autocomplete="username"
+        />
+        <label class="label" for="password">Password:</label>
+        <input
+          class="password"
+          type="password"
+          name="password"
+          id="password"
+          required
+          autocomplete="current-password"
+        />
+      </form>
+      <button class="btn">Submit</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
