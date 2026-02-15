@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-22-JS-3D-Flip-Card-Logic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="mainBox">
+        <div class="front">
+      <input
+        class="text"
+        type="text"
+        name="text"
+        id="text"
+        required
+        placeholder="write something"
+      />
+      <button class="btn">Submit</button>
+      </div>
+    <div class="back">
+        <p id="resultText">Results :</p>
+        <button onclick="resetCard()" style="margin-top: 20px; cursor: pointer; border: none; border-radius: 12px; height: 35px; padding: 0 15px; background-color: white; color: blue; font-weight: bold;">
+    Try Again
+</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
