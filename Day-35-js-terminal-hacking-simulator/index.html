@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js-terminal-hacking-simulator</title>
+    <style>
+      body {
+        background-color: #000000;
+        color: #00ff00;
+        padding: 20px;
+      }
+      .blink {
+        animation: terminalBlink 0.5s step-end infinite;
+      }
+      @keyframes terminalBlink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="terminal"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
