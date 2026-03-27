@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discover the power of JS Logic with our comprehensive dashboard. Streamline your data management and enhance your decision-making process today!">
+    <title>js-logic-power-pack-dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard-grid">
+      <div class="card">
+        <h2>🎩 The Magical Sorting Hat</h2>
+        <input
+          type="text"
+          id="studentName"
+          placeholder="Enter Student Name..."
+        />
+        <button id="sortBtn">Sort Into House</button>
+        <div id="houseResult"></div>
+      </div>
+
+      <div class="card">
+        <h2>🔢 Array Processor</h2>
+        <p>
+          Original Array: <span id="originalArray">[2, 2, 5, 10, 10, 7]</span>
+        </p>
+        <button id="processBtn">Process Array</button>
+        <p>Result: <b id="resultArray"></b></p>
+      </div>
+
+      <div class="card">
+        <h2>🪞 Mirror Mirror Logic</h2>
+        <input type="text" id="userInput" placeholder="Type something..." />
+        <button id="mirrorBtn">Create Mirror</button>
+        <p>Original: <span id="originalText">---</span></p>
+        <p>Mirror Image: <b id="mirrorResult"></b></p>
+      </div>
+
+      <div class="card">
+        <h2>🛡️ Password Validator</h2>
+        <div class="password-wrapper">
+          <input
+            type="password"
+            id="passwordInput"
+            placeholder="Enter password..."
+          />
+          <button id="toggleBtn" type="button">👁️</button>
+        </div>
+        <button id="validateBtn">Check</button>
+      </div>
+
+      <ul id="criteriaList">
+        <li id="length">• At least 8 characters long</li>
+        <li id="case">• Both uppercase & lowercase letters</li>
+        <li id="digit">• At least one digit (0-9)</li>
+      </ul>
+      <p id="validationMsg"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
