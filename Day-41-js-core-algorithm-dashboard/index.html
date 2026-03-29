@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js-core-algorithm-dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="dashboard-container">
+      <section class="card">
+        <div class="card-header">
+          <span class="icon">🔄</span>
+          <h2>Palindrome Checker</h2>
+        </div>
+        <input type="text" id="userInput" placeholder="Type a word..." />
+        <button id="checkBtn">Check Now</button>
+        <p id="resultDisplay" class="result-box"></p>
+      </section>
+      <section class="card">
+        <div class="card-header">
+          <span class="icon">🎮</span>
+          <h2>FizzBuzz Game</h2>
+        </div>
+        <p class="sub-text">Magic numbers 1 to 100!</p>
+        <button id="startBtn">Start FizzBuzz</button>
+        <div id="displayArea" class="scroll-area"></div>
+      </section>
+      <section class="card">
+        <div class="card-header">
+          <span class="icon">🏆</span>
+          <h2>Largest Number</h2>
+        </div>
+        <div class="info-box">
+          Array: <span id="arrayDisplay">[23, 54, 12, 89, 43, 9, 77]</span>
+        </div>
+        <button id="findBtn" class="success-btn">Find Largest!</button>
+        <h3 id="resultText" class="status-text">Waiting...</h3>
+      </section>
+      <section class="card">
+        <div class="card-header">
+          <span class="icon">🧹</span>
+          <h2>Duplicate Cleaner</h2>
+        </div>
+        <div class="info-box">Original: [1, 2, 2, 3, 4, 4, 5]</div>
+        <button id="cleanBtn" class="info-btn">Remove Duplicates</button>
+        <div class="result-display">
+          <p id="finalResult" class="highlight-text">[ ? ]</p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
